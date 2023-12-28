@@ -11,7 +11,7 @@ const Bodycomp = () =>{
 
   const clickHandler = ()=>{
       const filteredres = resObj.filter(
-        (res) => res.info.avgRating > 4 
+        (res) => res.info.avgRating > 5 
       )
       setReslist(filteredres);
   }
