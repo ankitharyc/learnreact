@@ -76,3 +76,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Slice(cartslice)
 - dispatch(action)
 - Selector
+
+
+#Types of testing
+- Unit Testing  - testing one component in isolation
+- Integration Testing  - testing the integration of the components
+- End to end testing - e2e testing
+ Press a to run all tests.
+ › Press f to run only failed tests.
+ › Press q to quit watch mode.
+ › Press i to run failing tests interactively.
+ › Press p to filter by a filename regex pattern.
+ › Press t to filter by a test name regex pattern.
+ › Press Enter to trigger a test run

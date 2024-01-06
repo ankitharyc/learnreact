@@ -34,7 +34,7 @@ const cartItems = useSelector((store) => store.cart.items);
             <li><Link to="/about">About us</Link></li>
             <li><Link to="/contact">Contact US</Link></li>
             <li><Link to="/grocery">Grocery</Link></li>
-            <li className='font-bold text-lg'>cart({cartItems.length} items)</li>
+            <li className='font-bold text-lg'><Link to="/cart">cart({cartItems.length} items)</Link></li>
           </ul>
           <button className="background px-4 bg-pink-100" onClick={() =>{btnName === 'Login'?setBtnname('Logout'):setBtnname('Login');}}>{btnName}</button>
           <p className='font-bold ml-2'>{data.loggedUser}</p>

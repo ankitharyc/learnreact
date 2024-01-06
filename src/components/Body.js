@@ -62,7 +62,7 @@ const Bodycomp = () =>{
   if(onlinestatus === false)
     return (<h1>You are offline</h1>);
   
-    return reslist.length == 0 ? (<Shimmer/>) :(
+    return reslist.length === 0 ? (<Shimmer/>) :(
       <div className='body'>        
         <div className='filter'>
           <div className='search'>
