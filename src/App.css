@@ -22,19 +22,8 @@
   min-width: 321px;
   height: 200px;
 }
-.nav-items{
-  display: flex;
-  align-items: center;
-}
-.login-btn{
-  margin-left: 20px;
-  background: grey;
-  cursor: pointer;
-}
-.usercard{
-  border: 1px solid black;
-  padding: 0 10px;
-}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
